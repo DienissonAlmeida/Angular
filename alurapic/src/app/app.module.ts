@@ -1,21 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { MenuBarComponent } from './menubar/menubar.component';
 import { PhotosModule } from './photos/photos.module';
 import { AppRoutingModule } from './app.routing.module';
 import { ErrorsModule } from './errors/errors.module';
+import { MenuBarModule } from './menubar/menubar.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    MenuBarComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     PhotosModule,
     AppRoutingModule,
-    ErrorsModule
+    ErrorsModule,
+    MenuBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
