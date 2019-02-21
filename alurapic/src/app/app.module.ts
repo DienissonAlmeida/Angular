@@ -15,7 +15,7 @@ import { MenuBarModule } from './menubar/menubar.module';
     PhotosModule,
     AppRoutingModule,
     ErrorsModule,
-    MenuBarModule
+    // MenuBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
